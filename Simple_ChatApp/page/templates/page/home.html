@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <title></title>
+</head>
+<style>
+    body {background-image:url('file:///home/shadowk/Desktop/123rf_techmap.png');}
+    * {
+     box-sizing: border-box;
+     }
+     body {
+     margin: 0;
+     background-color:lightblue;
+     }
+     .navbar {
+     overflow: hidden;
+     background-color: #333;
+     }
+
+     .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+     }
+    .navbar a:hover {
+     background-color: #ddd;
+     color: black;
+     }
+</style>
+<body>
+<h1 style="color:black"; align="center">CHAT APP HOMEPAGE</h1>
+<div class="navbar">
+<a href="{% url 'login' %}"><p style="color:red"   align="center">LOGIN</p></a>
+    <a href="{% url 'signup' %}"><p style="color:red" align="center">SIGNUP</p></a>
+</div>
+</body>
+</html>
