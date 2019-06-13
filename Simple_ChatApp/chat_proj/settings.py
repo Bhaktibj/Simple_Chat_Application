@@ -84,9 +84,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'chatapp',
         'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
-        'PORT': '',
+        'PASSWORD': 'admin123',
+        'HOST': 'chatapp.cyfzcw19ayvg.ap-south-1.rds.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
